@@ -1,0 +1,15 @@
+places = ['Yosemite','Giza','San Jose','Bengalaru','London']
+
+print("{}".format(places))
+print("Sorted: {}".format(sorted(places)))
+print("Original: {}".format(places))
+print("Sorted Reverse: {}".format(sorted(places,reverse=True)))
+print("Original: {}".format(places))
+places.reverse()
+print("Reversed: {}".format(places))
+places.reverse()
+print("Reversed Again: {}".format(places))
+places.sort()
+print("Sorted: {}".format(places))
+places.sort(reverse=True)
+print("Sorted Reverse: {}".format(places))

@@ -1,3 +1,4 @@
 .vscode/
 !./**/*.py
 ./**/__*
+./chapter*/__pycache__

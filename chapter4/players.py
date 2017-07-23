@@ -4,7 +4,8 @@ print("{}".format(players[1:4]))
 print("{}".format(players[:4]))
 print("{}".format(players[2:]))
 print("{}".format(players[-3:]))
-# looping through a subset of list
-print("Here are the first three players in my team:")
+
+# using a for loop to iterate through subset of list
+print("The first three players in our team are:")
 for player in players[:3]:
-    print("{}".format(player.title()),end=' ')
+    print("{}".format(player))

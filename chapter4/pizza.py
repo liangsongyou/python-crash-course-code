@@ -1,6 +1,13 @@
 pizzas = ['Pepperoni','Cheese','Hot sauce']
+friend_pizzas = pizzas[:]
 
+pizzas.append('Olive topping')
+friend_pizzas.append('Cheese topping')
+
+print("My favorite pizzas are:")
 for pizza in pizzas:
-    print("I like {} pizza.".format(pizza))
-print("Hot sauce is a rather\nnew kind of pizza just invented\n in a coder's head.")
-print("Nobody have every tried a Hot sauce pizza yet.")
+    print("{}".format(pizza))
+
+print("\nMy friends favorite pizzas are:")
+for pizza in friend_pizzas:
+    print("{}".format(pizza))

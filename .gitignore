@@ -2,3 +2,4 @@
 !./**/*.py
 ./**/__*
 ./chapter*/__pycache__
+/**/__pycache__

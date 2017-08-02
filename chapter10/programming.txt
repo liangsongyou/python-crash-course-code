@@ -1,0 +1,3 @@
+I also love finding meaning in large database.
+I love apps that can run in browser.
+Python is a turing complete language.

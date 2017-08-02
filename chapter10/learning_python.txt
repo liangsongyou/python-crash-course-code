@@ -1,0 +1,5 @@
+In Python you can automate jobs.
+In Python you can visualize data.
+In Python you can make web applications.
+In Python you can teach computer how to liberate you from tedious work.
+In Python you can do almost any thing, guess what, it's turing complete.

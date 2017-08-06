@@ -10,12 +10,12 @@ class Bullet(Sprite):
         self.screen = screen
         # Create a bullet rect at 0,0 and set it's position to ship's position
         self.rect = pygame.Rect(0,0, ai_settings.bullet_width, ai_settings.bullet_height)
-        self.rect.centerx = ship.img_rect.centerx
-        self.rect.top = ship.img_rect.top
+        self.rect.centerx = ship.rect.centerx
+        self.rect.top = ship.rect.top
         # Store the bullet's position as decimal value
         self.y = float(self.rect.y)
         self.color = ai_settings.bullet_color
-        self.speed_factor = ai_settings.bullet_speed_factor    
+        self.speed_factor = ai_settings.bullet_speed_factor
 
     def update(self):
         """Move the bullet up the screen."""

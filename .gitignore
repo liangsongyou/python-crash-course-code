@@ -1,4 +1,5 @@
 .vscode/
+/web/webapp/
 !./**/*.py
 ./**/__*
 ./chapter*/__pycache__
